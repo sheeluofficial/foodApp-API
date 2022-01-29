@@ -1,0 +1,93 @@
+   body{
+            padding: 0px;
+            margin: 0px;
+        }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 55px;
+            width: 98vw;
+            background-color: black ;
+            color: white;
+            margin: auto;
+            margin-bottom: 50px;
+            
+
+        }
+
+        .nav-btn-box{
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            gap: 30px;
+            margin-right: 30px;
+            /* width: 300px; */
+            align-items: center;
+            height: inherit;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .container{
+            margin-top: 50px;
+            width: 90vw;
+            margin: auto;
+            display: grid;
+            grid-template-columns:repeat(4,1fr);
+            gap: 20px;
+
+        }
+        .webname{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 40px;
+        }
+
+.mealBox{
+    height: 260px;
+    width: 280px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+        .foodImg{
+         height: 60%;
+         width: 100%;
+         border-radius: 2px;
+
+        }
+        .mealBox h3{
+            margin: 5px;
+        }
+        .mealBox p{ 
+             margin: 5px;
+        }
+
+        .addtoCart{
+            width: 100px;
+            padding: 7px;
+            margin: auto;
+            align-self: center;
+            background-color: rgb(211, 182, 182);
+            border-radius: 5px;
+        }
+        .cart{
+            position: relative;
+        }
+        .cartno{
+            font-size: 12px;
+            color: red;
+            position:absolute;
+            top: -2px;
+            height: 15px;
+            width: 15px;
+            background-color: blue;
+            padding: 2px;
+            text-align: center;
+            border-radius: 3px;
+        }
